@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1007380384010",
+    "firebase_url": "https://apptamadirectorio.firebaseio.com",
+    "project_id": "apptamadirectorio",
+    "storage_bucket": "apptamadirectorio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007380384010:android:64d17a5a2440449dba12f3",
+        "android_client_info": {
+          "package_name": "pe.com.apptama.apptamadirectorio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007380384010-jpa2t871pb5clqcbials3nf5cg2ign4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.com.apptama.apptamadirectorio",
+            "certificate_hash": "6d6d40ab678e83bfc0df874bc0a7ab04d10d18c8"
+          }
+        },
+        {
+          "client_id": "1007380384010-05vllgb0e7r54opvr9ghbuprg58aurs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfyADkr6xGucmCXytVoSIjUJLVdchmDGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007380384010-05vllgb0e7r54opvr9ghbuprg58aurs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

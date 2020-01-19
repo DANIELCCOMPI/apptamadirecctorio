@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#1b3a57"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/tv_dialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="@string/dialog_contact_textview_name"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dialog_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/dialog_contact_textview_phone"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_llamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableStart="@drawable/ic_call"
+            android:drawableLeft="@drawable/ic_call"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="@string/dialog_contact_button"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btn_mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableStart="@drawable/ic_message"
+            android:drawableLeft="@drawable/ic_message"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="@string/dialog_contact_button_mensaje"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btn_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableStart="@drawable/ic_delete"
+            android:drawableLeft="@drawable/ic_delete"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="@string/dialog_contact_button_remove"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btn_rem"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@android:color/white"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="20dp"
+            android:textAlignment="textStart" />
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_dialog_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circlebackground"
+        android:padding="10dp"
+        android:src="@drawable/ic_person"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

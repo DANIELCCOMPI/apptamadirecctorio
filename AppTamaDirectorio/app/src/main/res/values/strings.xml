@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppTamaDirectorio</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_directorio">Mis Contactos</string>
+    <string name="main_edittex">introduzca un mensaje</string>
+    <string name="main_button">enviar</string>
+    <string name="item_contact_imageview">Foto del contacto</string>
+    <string name="dialog_contact_textview_name">Contact Name</string>
+    <string name="dialog_contact_textview_phone">Phone Number</string>
+    <string name="dialog_contact_button">Llamar</string>
+    <string name="dialog_contact_button_mensaje">Enviar mensajes</string>
+    <string name="item_contact_imageview_call">Icono para realizar llamada</string>
+
+    <string name="edit_contacto_edittext_nombre">Nombre</string>
+    <string name="edit_contacto_edittext_apellido">Apellidos</string>
+    <string name="edit_contacto_edittext_movil">Teléfono móvil</string>
+    <string name="edit_contacto_edittext_anexo">Número de anexo</string>
+    <string name="edit_contacto_edittext_email">Dirección de correo</string>
+    <string name="edit_contacto_edittext_empresa">Nombre de empresa</string>
+    <string name="edit_contacto_edittext_cargo_empresa">Cargo en la empresa</string>
+    <string name="edit_contacto_edittext_action_label">Listo</string>
+    <string name="dialog_contact_button_remove">Eliminar contacto</string>
+    <string name="action_acerca">Mi código</string>
+    <string name="main_dialog_ok">Ok</string>
+    <string name="main_dialog_title">Mi código</string>
+
+</resources>
