@@ -1,2 +1,1 @@
-aplicación movil que permite gestionar el directorio de un grupo de personas con la finalidad de que todos los asociados tengan el mismo directorio.
-Desarrollada para android.
+#Aplicación movil que permite compartir su directorio con otras personas, asi todos puedan tener la misma información de los contactos.
