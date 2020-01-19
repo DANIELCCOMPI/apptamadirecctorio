@@ -1,1 +1,1 @@
-# Aplicación movil que permite compartir su directorio con otras personas, asi todos puedan tener la misma información de los contactos.
+# Aplicación móvil que permite compartir su directorio con otras personas, así todos puedan tener la misma información de los contactos.
